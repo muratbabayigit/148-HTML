@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lexend:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* YORUM SATIRI */
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    font-weight: bold;
+    color: rgb(146, 2, 122);
+}
+
+body{
+    font-size: 18px;
+    background-color: rgb(255, 243, 253)
+}
+
+.header{
+    border: 3px solid  rgb(146, 2, 122);
+    background-color: rgb(203, 139, 201);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;     /* elementleri div içine eşit aralıklarla yayar */
+    align-items: center;
+    padding: 8px 20px;      /* Bir elementin iç kenarlar uzaklığını belirler yatay önce düşey sonra yazılır */
+    /* YORUM SATIRI */
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .about{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    width: 60%;
+    margin: 20px;
+}
+
+.content .about img{
+    width: 500px;
+    height: 500px;
+    border: 3px solid rgb(146, 2, 122);
+    border-radius: 200px;
+    box-shadow: 10px 10px 15px rgb(144, 144, 144);
+
+}
+
+.content .about .photo{
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px dotted rgb(146, 2, 122);
+   padding: 30px;
+   font-size: 25px;
+   margin-top: 60px;
+}
+.section{
+    width: 60%;
+}
+.section .card{
+    display: flex;
+    border: 3px solid  rgb(146, 2, 122);
+    background-color: rgb(203, 139, 201);
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px;
+    justify-content: space-between;
+    box-shadow: 10px 10px 15px gray;
+}
+.section .card .left{
+    font-size: 15px;
+    flex: 2;
+}
+.section .card .left{
+    font-size: 20px;
+    flex: 3;
+}
+input, textarea, select{
+    border: 2px solid  rgb(146, 2, 122);
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+
+button {
+   margin: 5px;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(129, 1, 106);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+

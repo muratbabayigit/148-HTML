@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY RESUME</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="title"><h2>Murat BABAYIGIT - QA Automation Engineer</h2></div>
+        <div class="menu"><a href="index.html">HOME</a> | <a href="about.html">RESUME</a> | <a href="contact.html">CONTACT</a> </div>
+    </div>
+
+    <div class="content">
+        <center><h1>CONTACT FORM</h1></center>
+        <div class="section">
+            <div class="card">
+                <form action="saveToDb.php">
+                        <div class="form-row" id="fullName"> 
+                        <label for="fullName">Full Name:</label>
+                        </div><input type="text" name="fullName">
+
+                        <div class="form-row" id="phoneNumber">
+                            <label for="phoneNumber">Your Phone:</label>
+                        </div><input type="tel" name="phone">
+
+                        <div class="form-row" id="email">
+                            <label for="email">E-mail:</label>
+                        </div> <input type="email" name="email" >
+
+                        <div class="form-row" id="city">
+                            <select name="city" >
+                                <option value="1">Istanbul</option>
+                                <option value="2">Ankara</option>
+                                <option value="3">İzmir</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row" id="message">
+                            <label for="message">Your Message: </label>
+                        </div><textarea name="message" cols="400"></textarea>
+                        <br><button type="submit" value="Send">SEND</button><button type="reset" value="Clear">CLEAR</button>
+
+                </form>
+
+            </div>
+        </div>
+
+       
+    </div>
+    
+    <div class="footer">      
+        <div class="phone"><a href="tel:+2124440444">Call Me!</a></div>
+        <div class="email"><a href="mailto:">Send Mail</a></div>
+        <div class="social"><a href="https:/www.x.com" target="_blank">X.com</a> | <a href="https://www.linkedin.com" target="_blank">Linkedin</a> | <a href="http://www.instagram.com" target="_blank">Instagram</a></div>
+        <div class="copyright">All Right Reserved</div>
+</div>
+
+    
+</body>
+</html>
